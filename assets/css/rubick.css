@@ -1525,7 +1525,7 @@ body > .navbar-collapse.collapse {
   }
 
   .navbar-fixed-top {
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
   }
 
   .social-line .btn {
@@ -3583,7 +3583,7 @@ body.noscroll {
     padding-left: 0;
   }
   .section-we-made-1 .transition-1 {
-    /*     		transition: all 0.5s; */
+    transition: all 0.5s;
   }
 
   .section-we-made-2 .scroll-area {
